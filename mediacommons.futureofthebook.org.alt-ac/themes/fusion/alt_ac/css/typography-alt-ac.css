@@ -36,6 +36,18 @@ h2 {
 	margin-bottom: 0em;
 }
 
+.field-item h2 {
+	font-size: 2em;
+	line-height: 1em;
+	margin-top: 0.8333em;
+	margin-bottom: 10px;
+/*	font-family: 'Cardo', serif;*/
+}
+.field-item h3 {
+	font-size: 1.4em;
+/*	font-weight: normal;*/
+}
+
 h3 {
 	font-size: 1.5714em; /* 22px */
 	line-height: 1.25em; /* 20px */      
@@ -47,7 +59,7 @@ h4 {
 	font-size: 1.4286em; /* 20px */
 	line-height: 1em; /* 20px */
 	margin-top: 1em;
-	margin-bottom: 0em;
+	margin-bottom: 5px;
 }
 
 h5 {
