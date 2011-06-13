@@ -23,13 +23,13 @@
     </div><!-- End Cluster -->    
 
 	    <div class="cluster-pieces-section">
-			<h3 class="cluster-pieces-title">Contributed Pieces</h3>
+			<h3 class="cluster-pieces-title">Contents</h3>
 	    <?php print $pieces ?>
 	    </div>
 
 
     <div class="cluster-contributors-section">
-  		<h3 class="cluster-contributors-title">Contributors and Participants</h3>
+  		<h3 class="cluster-contributors-title">Contributors</h3>
     	<?php print $contributors ?>
     </div> 
 
