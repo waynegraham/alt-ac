@@ -168,8 +168,8 @@ function alt_ac_preprocess_node(&$vars) {
   }
 
   if ( $vars['node']->type == 'cluster' ) {
-    $vars['curator'] = '<div class="cluster-curator">Curated by ' . l($vars['realname'], 'user/'. $vars['uid'], array('attributes' => array('title' => t($vars['realname']), 'class' => 'username'))) . '</div>';
-    $vars['time_period'] = '<h6 class="time-period">'.format_date(strtotime($vars['node']->field_period[0]['value']), 'custom', 'F d, Y' ).'&ndash;'.format_date( strtotime($vars['node']->field_period[0]['value2']), 'custom', 'F d, Y' ).'</h6>';
+    $vars['curator'] = '<div class="cluster-curator">Edited by ' . l($vars['realname'], 'user/'. $vars['uid'], array('attributes' => array('title' => t($vars['realname']), 'class' => 'username'))) . '</div>';
+    //$vars['time_period'] = '<h6 class="time-period">'.format_date(strtotime($vars['node']->field_period[0]['value']), 'custom', 'F d, Y' ).'&ndash;'.format_date( strtotime($vars['node']->field_period[0]['value2']), 'custom', 'F d, Y' ).'</h6>';
     $vars['description'] = '<div class="cluster-description">' . truncate_utf8( $vars['node']->field_description[0]['safe'], 500, TRUE, TRUE ) . '</div>';
     if ( !empty( $vars['node']->field_video_embed_link[0]['embed'] ) ) {
       $vars['frontispiece'] = '<div class="cluster-frontispiece">'.$vars['node']->field_video_embed_link[0]['view'].'</div>';
