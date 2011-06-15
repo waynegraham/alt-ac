@@ -118,7 +118,7 @@
     },
     'regex' : {
       'services' : { 
-d        'youtube'  : /(?:(youtube.com\/v\/|youtube.com)\/watch\?v=)([^&]+)/,
+        'youtube'  : /(?:(youtube.com\/v\/|youtube.com)\/watch\?v=)([^&]+)/,
         'vimeo' : /(?:(vimeo.com))\/(\d+)/ 
       }
     },
@@ -210,7 +210,7 @@ d        'youtube'  : /(?:(youtube.com\/v\/|youtube.com)\/watch\?v=)([^&]+)/,
       }, 250));     
     }
   };
-});
+})();
 
 $(document).ready(function(){
   jQuery('#contributor-pictures div.picture:first').addClass('active');
@@ -228,5 +228,3 @@ $(document).ready(function(){
         });
 
 });
-
-
