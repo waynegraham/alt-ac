@@ -17,8 +17,7 @@ body {
 p { 
 	font-size: 1em; /* 14px */
 	line-height: 1.4286em; /* 20px */
-	margin: 1.4286em 0;
-  text-align: justify; 
+	margin: 0 0 1.4286em 0;
 }
 
 /* HTML Elements
