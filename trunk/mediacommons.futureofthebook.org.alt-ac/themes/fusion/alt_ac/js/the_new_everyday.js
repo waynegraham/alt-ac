@@ -212,19 +212,3 @@
   };
 })();
 
-$(document).ready(function(){
-  jQuery('#contributor-pictures div.picture:first').addClass('active');
-      var active = jQuery('#contributor-pictures div.active');      
-      if ( active.length === 0 ) { 
-        active = jQuery('#contributor-pictures div:last');
-      }     
-      var next = active.next().length ? active.next() : jQuery('#contributor-pictures div:first');    
-      active.addClass('last-active')
-        .animate({opacity : 0.0}, 1000);       
-        next.css({opacity: 0.0})
-        .addClass('active')
-        .animate({opacity: 1.0}, 1000, function() {
-          active.removeClass('active last-active');
-        });
-
-});
