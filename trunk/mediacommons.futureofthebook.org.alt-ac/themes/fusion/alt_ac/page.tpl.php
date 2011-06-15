@@ -19,6 +19,16 @@
   <![endif]-->
   <?php print $local_styles; ?>
   <?php print $scripts; ?>
+  <!-- include Cycle plugin -->
+  <script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+        $('#contributor-pictures').cycle({
+          fx: 'fade',
+          speed: 1000
+        });
+    });
+  </script>
 </head>
 
 <body id="<?php print $body_id; ?>" class="<?php print $body_classes; ?>">
