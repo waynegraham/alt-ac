@@ -19,6 +19,9 @@
   <![endif]-->
   <?php print $local_styles; ?>
   <?php print $scripts; ?>
+
+  <link rel="alternate" type="application/rss+xml" title="&#35;alt-ac" href="/alt-ac/rss.xml" />
+
   <!-- include Cycle plugin -->
   <script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
   <script type="text/javascript">
